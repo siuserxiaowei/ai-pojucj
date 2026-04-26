@@ -188,7 +188,7 @@ if (!slug || !slugMap[slug]) {
     '<div class="error"><h2>找不到这篇拆解</h2><p>可能链接被改过了，<a href="index.html">回到首页</a>看看吧。</p></div>';
 } else {
   document.getElementById('detail-title').textContent = slugMap[slug];
-  fetch(`拆解/${slug}.md`)
+  fetch(`posts/${slug}.md`)
     .then(r => { if (!r.ok) throw new Error('not found'); return r.text(); })
     .then(md => {
       marked.setOptions({ breaks:false, gfm:true });
