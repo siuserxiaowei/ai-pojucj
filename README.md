@@ -42,9 +42,10 @@ python3 -m http.server 8000
 
 ## 联系
 
-- 微信：siuser小伟（备注「破局拆解」优先通过）
-- 公众号二维码见 `assets/qrcode.jpg`
+- 微信：`siuserxiaowei`（备注「破局拆解」优先通过）
+- 作者微信二维码：`assets/wechat-personal.jpg`
+- 公众号二维码：`assets/qrcode.jpg`
 
 ---
 
-由 **siuser小伟** 制作 · 源稿来自破局大会现场录音整理
+由 **小伟** 制作 · 源稿来自 AI 破局俱乐部杭州大会现场录音整理
