@@ -190,6 +190,10 @@ if (!slug || !slugMap[slug]) {
     .then(r => { if (!r.ok) throw new Error('not found'); return r.text(); })
     .then(md => {
       marked.setOptions({ breaks:false, gfm:true });
+      // CJK 强调修复：marked 对中文紧贴 ** 不识别为加粗，预先转 <strong>
+      // 跳过代码块和行内代码里的 **
+      md = md.replace(/(```[\s\S]*?```|`[^`\n]+`)|\*\*([^*\n]+?)\*\*/g,
+        (m, code, bold) => code || `<strong>${bold}</strong>`);
       document.getElementById('detail-content').innerHTML = marked.parse(md);
       document.title = slugMap[slug] + ' · AI 破局拆解';
     })
