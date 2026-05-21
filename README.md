@@ -1,5 +1,18 @@
 # AI 破局拆解
 
+<!-- SIUSER-SEO-INTRO:START -->
+
+## 项目介绍 / Project Introduction
+
+**中文介绍**：AI 破局财经与内容实验项目，整理 AI、商业、财经观察和可传播内容素材。
+
+**English**: An AI, business, and finance content experiment for organizing market observations, creator materials, and shareable insights.
+
+**SEO 关键词 / SEO Keywords**: AI business, finance content, content strategy, AI media, 财经内容
+
+<!-- SIUSER-SEO-INTRO:END -->
+
+
 > 杭州 AI 破局大会 19 场分享 · 道法术器 + 7 字段精华拆解
 
 ## 这是什么
@@ -49,3 +62,17 @@ python3 -m http.server 8000
 ---
 
 由 **小伟** 制作 · 源稿来自 AI 破局俱乐部杭州大会现场录音整理
+
+<!-- SIUSER-CONTACT:START -->
+
+## 联系我 / Contact
+
+想交流 AI 工具、内容自动化、SEO、私域增长或项目合作，可以扫码加我微信。
+
+For collaboration on AI tools, content automation, SEO, private-domain growth, or product experiments, scan the WeChat QR code below.
+
+<img src="https://raw.githubusercontent.com/siuserxiaowei/siuserxiaowei/main/assets/contact/wechat-qrcode.jpg" width="180" alt="WeChat QR code / 微信二维码" />
+
+**关键词 / Keywords**: AI business, finance content, content strategy, AI media, AI tools, AI automation, GitHub Pages, SEO
+
+<!-- SIUSER-CONTACT:END -->
